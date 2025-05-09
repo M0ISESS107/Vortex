@@ -1,6 +1,10 @@
+package com.mycompany.vortex;
+
+
 import javax.swing.JOptionPane;
+
 public class BibliotecaJogos {
-    public static void main(String[] args) {
+    public static void bibliotecaJogos(String[] args) {
         JOptionPane.showMessageDialog(null, "Entrando na biblioteca de jogos:");
         int totalJogo = 5;
         String[] jogos = new String[totalJogo];
