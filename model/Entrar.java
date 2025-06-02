@@ -2,53 +2,10 @@ package com.mycompany.vortex.model;
 
 import javax.swing.JOptionPane;
 
-public class Entrar {
-
-    private String login = "e-mailTest";
-    private String senha = "senhaTeste";
-    private String email;
-    // Variáveis de perfil
-    String nome = "nome teste";
-    String idade = "1000";
-    String descricaoJogador = "Avatar padrão";
+public class Entrar extends Cliente {
 
     private FormasDePagamento formasDePagamento = new FormasDePagamento();
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setIdade(String idade) {
-        this.idade = idade;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public String getIdade() {
-        return idade;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public void setSenha(String senha) {
-        this.senha = senha;
-    }
-
-    public String getLogin() {
-        return login;
-    }
-
-    public String getSenha() {
-        return senha;
-    }
 
     public FormasDePagamento getFormasDePagamento() {
         return formasDePagamento;

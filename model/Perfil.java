@@ -42,7 +42,7 @@ public class Perfil implements perfili {
                     7- Configuração
                     8- Voltar
                     9- Sair
-                    Escolha uma opção:""".formatted(loginObjeto.getNome(), loginObjeto.getEmail(), loginObjeto.descricaoJogador));
+                    Escolha uma opção:""".formatted(loginObjeto.getNome(), loginObjeto.getEmail(), loginObjeto.getDescricaoJogador()));
 
             if (entrada == null) {
                 return;
@@ -85,9 +85,9 @@ return;
         int escolha = Integer.parseInt(opcao);
 
         if (escolha == 1) {
-            loginObjeto.nome = JOptionPane.showInputDialog("🖊 Digite um novo nome:");
+            loginObjeto.setNome( JOptionPane.showInputDialog("🖊 Digite um novo nome:"));
         } else if (escolha == 2) {
-            loginObjeto.descricaoJogador = JOptionPane.showInputDialog(" Digite uma nova descrição:");
+            loginObjeto.setDescricaoJogador( JOptionPane.showInputDialog(" Digite uma nova descrição:"));
         } else if (escolha == 3) {
             loginObjeto.setEmail(JOptionPane.showInputDialog(" Digite seu novo email:"));
         } else if (escolha == 4) {

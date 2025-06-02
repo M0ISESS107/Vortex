@@ -44,14 +44,15 @@ public class AssPremil extends Assinaturas {
     }
 
     public void jogosInclusos() {
-        String[] jogos = {"GTA VI", "GOD OF WAR 2", "LEFT 4 DEAD", "MINECRAFT", "DRAGON BALL FIGHTZ"};
+        String[] jogos = {"The Witcher 3", "Hollow Knight", "Elden Ring", "Stardew Valley", "Resident Evil 4"};
         String[] descricao = {
-                "O jogo acompanha uma dupla criminosa: Jason Duval...\n",
-                "Após derrotar Ares e conseguir sua vingança, Kratos...\n",
-                "Left 4 Dead começa na Pensilvânia, após o surto...\n",
-                "Minecraft é um jogo eletrônico lançado em 2009...\n",
-                "Dragon Ball FighterZ é um jogo de luta no universo Dragon Ball...\n"
+                "The Witcher 3 é um RPG de mundo aberto que acompanha Geralt de Rívia em sua busca por sua filha adotiva, Ciri, enfrentando monstros e tomando decisões que afetam o mundo ao seu redor.\n",
+                "Hollow Knight é um jogo de ação e aventura em estilo metroidvania, onde você explora um mundo subterrâneo misterioso e cheio de segredos chamado Hallownest.\n",
+                "Elden Ring é um RPG de ação em mundo aberto criado pela FromSoftware, que combina exploração com combates desafiadores em um universo sombrio e vasto.\n",
+                "Stardew Valley é um jogo de simulação onde você herda uma fazenda, cultiva plantações, cuida de animais e interage com os moradores de uma pequena cidade.\n",
+                "Resident Evil 4 é um jogo de terror e ação onde Leon S. Kennedy tenta resgatar a filha do presidente dos EUA em uma vila infestada por criaturas hostis na Europa.\n"
         };
+
 
         boolean continuar = true;
         while (continuar) {
